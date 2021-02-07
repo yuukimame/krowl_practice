@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "游明朝";
+  width: 1000px;
+  margin: 0 auto;
+  color: #707070;
+}
+/* header */
+.main-title{
+  background-color: #5A442A;
+  color: #FFFFFF;
+  height: 80px;
+  line-height: 80px;
+}
+
+header h1 span{
+  padding-left: 20px;
+  font-size: 32px;
+}
+
+header small{
+  font-size: 20px;
+}
+
+.mainVisual{
+  background: cover;
+  height: 400px;
+}
+
+/* main */
+.main{
+  padding-top: 50px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.number{
+  font-size: 36px;
+}
+
+.main h1{
+  font-size: 24px;
+}
+
+.post{
+  margin-top: 30px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-img{
+  width: 480px;
+}
+
+.post-text{
+  width: 460px;
+}
+
+.prev{
+  text-align: center;
+}
+
+.prev a{
+  color: #707070;
+}
+
+.prev h1{
+  margin: 50px 0;
+  font-size: 24px;
+}
+
+/* footer */
+footer{
+  background-color: #5A442A;
+  color: #FFFFFF;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
