@@ -82,3 +82,41 @@ footer{
   line-height: 60px;
   text-align: center;
 }
+
+@media screen and (max-width: 700px){
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  /* header */
+  .mainVisual{
+    height: 400px;
+  }
+
+  /* main */
+  .main{
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100vw;
+  }
+
+  .posts{
+    align-items: center;
+  }
+  .post{
+    margin-top: 30px;
+    height: 280px;
+    display: inline-block;
+  }
+
+ .post-img img{
+    width: 90vw;
+  }
+
+  .post-text{
+    width: 90vw;
+    margin-top: 30px;
+  }
+
+}
